@@ -1,0 +1,172 @@
+body{
+	background-color: #C7C7C7;
+}
+
+
+
+.logo img{
+	width: 100%;
+	height: 225px;
+}
+
+.card-body{
+	padding:0px;
+}
+
+.header h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.marquee{
+ 	background: #148A34;
+    box-shadow: 0 3px 100px 5px green;
+    width: 100%;
+    float: left;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: -2px;
+    position: relative;
+}
+
+.content h3 {
+    color: #da70d8;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 15px 0;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+.contentpro h3 {
+    color: #da70d8;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 15px 0;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+.content form{
+
+    width: 100%;
+
+    float: left;
+
+}
+
+input,select{
+
+    padding: 10px;
+
+}
+
+input[type=text]{
+
+    width: 100%;
+
+    border: 1px solid #ccc;
+
+}
+
+input[type=submit],#printbutton{
+
+    background: #800080;
+    color: white;
+    border:1px solid #800080;
+    font-size: 17px;
+    border-radius:5px;
+}
+
+#logintable{
+    padding: 0px 0 10px 0;
+}
+
+
+#logintable input,#logintable select{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#logintable  #userloginbutton{
+
+    width: 150px;
+    background: #800080;
+    border: 1px solid #800080;
+    color: #fff;
+    font-size: 20px;
+}
+
+#logintable td{
+    font-size: 14px;
+    color: black;
+}
+
+
+.navbar-brand{
+	color: #fff;
+}
+
+.nav-link{
+	color: #fff!important;
+}
+
+.navbar {
+
+    position: relative;
+	padding: 0.5rem 1rem;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: bold;	
+}
+
+.break{
+	background-color: #B6B6B6;
+	padding: 0.68px;
+
+}
+
+.rulehead{
+    font-weight: bold;
+    margin-top: 75px;
+    padding: 5px;
+    font-size-adjust: ;
+    font-size: 19px;
+}
+.rule li{
+	font-size: 16px;
+	padding: 10px;
+}
+
+.circle{
+    position:relative;
+    width:250px;
+    
+    padding-bottom:250px;
+    background:#16A05D;
+    border-radius:250px;
+  }
+  .circle h3{
+    position:absolute;
+    top:45%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+  }
+  .circle h5{
+    position:absolute;
+    top:60%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+  }
